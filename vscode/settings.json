@@ -1,0 +1,51 @@
+{
+  "editor.fontSize": 17 /* I tend to like 16, 17 */,
+  "editor.fontFamily": "Fira Code" /* Cascadia Code, JetBrains Mono, Fira Code, or the vs defaults (Menlo, Monaco, 'Courier New', monospace) look good */,
+  "editor.fontLigatures": true /* this is to allow certain symbols to look different */,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.colorCustomizations": {
+    "[One Dark Pro Darker]": {
+      // Can customize each aspect"
+      "tab.activeBorderTop": "#ffcc00", // Active Tab Top Highlighting color
+      "editorCursor.foreground": "#ffcc00"
+    }
+  },
+  "files.trimTrailingWhitespace": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "eslint.alwaysShowStatus": true,
+  "editor.bracketPairColorization.enabled": true,
+  "json.schemas": [],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.guides.bracketPairs": true,
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "telemetry.telemetryLevel": "off",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "editor.semanticTokenColorCustomizations": {},
+  "editor.rulers": [72, 80],
+  "files.associations": {
+    "*.css": "css"
+  },
+  "workbench.editor.labelFormat": "short",
+  "terminal.integrated.fontSize": 17,
+  "liveServer.settings.donotShowInfoMsg": true
+}
